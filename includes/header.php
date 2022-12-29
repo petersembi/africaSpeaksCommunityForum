@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    
     <!-- External links -->
     <!-- Bootstrap css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">    
@@ -14,9 +14,15 @@
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap DatePicker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CK editor -->
     <script src="https://cdn.ckeditor.com/ckeditor5/35.4.0/classic/ckeditor.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
 <body>
@@ -38,7 +44,7 @@
                     <a target="_blank" class="nav-link" href="https://africaspeaks.global">Website</a>
                 </li>
                 <li class="nav-item active">
-                    <a data-nav="Home" class="nav-link" href="/">Home</a>
+                    <a data-nav="Home" class="nav-link" href="home.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a data-nav="Forum"  class="nav-link" href="forum.php">Forum</a>
@@ -58,14 +64,17 @@
                         </div>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
-                    <a class="dropdown-item" href="/account/">My Account</a>
-                            <a class="dropdown-item" href="/account/notifications">Notifications <span class="badge text-bg-danger">0</span></a>
+                    <a class="dropdown-item" href="account.php">My Account</a>
+                            <a class="dropdown-item" href="notifications.php">Notifications <span class="badge text-bg-danger">0</span></a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="/account/signout">Sign Out</a>
                     </ul>
                 </li>                                  
                
             </ul>
+
+            
+
            
             </div>
         </div>
