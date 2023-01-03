@@ -397,8 +397,77 @@
   </div>
 </div>
 
+<!-- ================ DELETE MODAL ====================== -->
+ <div class="modal fade" id="deleteRoleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <form action="">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title " id="exampleModalLabel">DELETE ROLE
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="alert alert-warning" role="alert">
+                    Are you sure you want to delete the role?
+                </div>
+                                
+            </div>
+
+        
+                     
+                
+      
+
+            
+        </div>
+        <div class="modal-footer">
+       
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> <span class="commentBtnText">CANCEL</span> </button>
+            <button type="button" class="btn btn-primary"><span class="commentBtnText">OK</span></button>
+        </div>
+        </div>
+    </form>
+   
+  </div>
+</div>
 
 
+
+<!-- ================ DELETE MODAL ====================== -->
+<div class="modal fade" id="createNewRoleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <form action="">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title " id="exampleModalLabel">CREATE NEW ROLE
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                
+            <div class="col-12">
+                <div class="form">
+                    <label for="role" class="form-label">Role</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+                                
+            </div>
+            
+        </div>
+        <div class="modal-footer">
+       
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> <span class="commentBtnText">CANCEL</span> </button>
+            <button type="button" class="btn btn-warning"><span class="commentBtnText">ADD ROLE</span></button>
+        </div>
+        </div>
+    </form>
+   
+  </div>
+</div>
 
 
 
@@ -407,33 +476,22 @@
 
   <!-- ===========FOOTER SECTION============ -->
  
-<footer class="myfooter">
+<footer style="background-color: #000;" class="mb-0">
         <div class="container">
             <div class="row mt-5">
-                <div class="col-md-3 col-12 text-center" >
-                    <img src="assets/images/africaspeaks_logo.png" class="my-5 img-fluid" alt="">
+                <div class="col-md-3 col-12 text-start" >
+                    <img src="assets/images/africaspeaks_logo.png" class="my-5 img-fluid" alt="" width="80" height="59">
 
                 </div>
                 <div class="col-md-9 col-12">
                     <div class="row">
                         <div class="col-12">
                             <ul class="d-flex   list-inline  footer_ul_nav">
-                                <li class=" list-inline-item "><a href="">FORUM</a></li>
-                                <li class=" list-inline-item "><a href="">DIRECTORY</a></li>
-                                <li class=" list-inline-item "><a href="">MY ACCOUNT</a></li>
-                                <li class=" list-inline-item "><a href="">VIEW WEBSITE</a></li>                   
+                                <li class=" list-inline-item "><a href="../africaspeaks community forum/">BACK TO COMMUNITY AREA</a></li>                                                  
                     
                             </ul> 
                         </div>
-                        <div class="col-12">                    
-                            <ul class=" ">
-                                <a href=""><li class=" list-inline-item "><i class=" fa-2x fa-brands fa-facebook-f footerIcons"></i></li></a>
-                                <a href=""><li class="list-inline-item ms-3"><i class="fa-2x fa-brands fa-twitter footerIcons"></i></li></a>
-                                <a href=""><li class="list-inline-item ms-3"><i class=" fa-2x fa-brands fa-linkedin-in footerIcons"></i></li></a>
-                                <a href=""><li class="list-inline-item ms-3"><i class="fa-2x fa-brands fa-whatsapp footerIcons"></i></li></a>
                         
-                            </ul>
-                        </div>
                     </div>
                        
                    
@@ -445,7 +503,7 @@
             <div class="row">
                 
             </div>
-            <div class="row mt-3 text-white">
+            <div class="row mt-3 mb-3 text-white">
                 <div class="col-md-6">
                     <div class="float-md-start footer_text">&copy 2022 Africa Speaks. All Rights Reserved</div>
                 </div>
@@ -483,7 +541,10 @@
         console.error( error );
     } );
 
-    
+    $('#dob').on('changeDate', function(ev){
+        $(this).datepicker('hide');
+    });
+
     ClassicEditor
     .create( document.querySelector( '#bioEditor' ) )
     .catch( error => {
@@ -506,17 +567,33 @@
     .create( document.querySelector( '.newTopicEditor' ) )
     .catch( error => {
         console.error( error );
+    } );   
+
+    ClassicEditor
+    .create( document.querySelector( '#newForumEditor' ) )
+    .catch( error => {
+        console.error( error );
+    } ); 
+    ClassicEditor
+    .create( document.querySelector( '.newForumEditor' ) )
+    .catch( error => {
+        console.error( error );
     } );
 
-    $('#dob').on('changeDate', function(ev){
-        $(this).datepicker('hide');
-    });
+    ClassicEditor
+    .create( document.querySelector( '#newTopicEditorAdmin' ) )
+    .catch( error => {
+        console.error( error );
+    } );
 
-
+    ClassicEditor
+    .create( document.querySelector( '.viewCommentEditor' ) )
+    .catch( error => {
+        console.error( error );
+    } );
 
     
-    
-    
+    viewCommentEditor
 </script>
 </body>
 </html>

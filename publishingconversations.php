@@ -89,6 +89,8 @@
                         
                     </div>
 
+    <!-- =============COMMENT SECTION=================== -->
+
                     <div class="col-12 lightGreyBg comment p-3 mt-2">
                         <div class="row mt-3">
                             <div class="col-md-1 col-12 avatarCol">

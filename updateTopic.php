@@ -12,7 +12,7 @@
     <div class="col-md-9 col-12">
         <div class="row">
             <div class="col-12 boxShadow rounded10 p-3">
-                <h2 class="brownColor">New Topic</h2>
+                <h2 class="brownColor">Edit Topic</h2>
 
                 <form action="" class="mb-3">
                     <div class="mb-4">
@@ -31,12 +31,12 @@
                     </div>
                     <div class="mb-3">
                         <label for="description" class="form-label">Description</label>
-                        <div class="newTopicEditor">
+                        <div id="newTopicEditor">
 
                         </div>
                     </div>
 
-                    <button class="btn btn-lg btn-warning"><span class="commentBtnText">CREATE TOPIC</span></button>
+                    <button class="btn btn-lg btn-warning"><span class="commentBtnText">UPDATE</span></button>
                 </form>
                 
 

@@ -55,48 +55,49 @@
                    
 
                     </div>
+
                     <div class="row">
-                    <div class="col-md-6 col-12">
-                    <div class="scheduledDiv me-4 ">
-                                <img src="assets/images/schedule.png" class="topicDetailsImg" alt="">
-                                <span class="small lightGreyColor">Posted: 10 months ago (2022-02-24 11:16:34)</span>
+                        <div class="col-md-6 col-12">
+                                <div class="scheduledDiv me-4 ">
+                                    <img src="assets/images/schedule.png" class="topicDetailsImg" alt="">
+                                    <span class="small lightGreyColor">Posted: 10 months ago (2022-02-24 11:16:34)</span>
 
-                            </div>
-                    </div>
-
-                    <div class=" col-md-6 col-12 ">
-                        
-                        <div class="d-flex float-end topicDetails">
-
-                            <div class="likesDiv me-4 text-center">
-                                <img src="assets/images/heart_like.png" class="topicDetailsImg" alt="">
-                                <span class="small lightGreyColor">Likes: 2</span>
-
-                            </div>
-                            <div class="commentsDiv me-4 text-center">
-                                <img src="assets/images/messaging.png" class="topicDetailsImg" alt="">
-                                <span class="small lightGreyColor">Comments: 4</span>
-
-                            </div>
-                            <div class="viewsDiv me-4 text-center">
-                                <img src="assets/images/reading.png" class="topicDetailsImg" alt="">
-                                <span class="small lightGreyColor">Views: 20</span>
-
-
-                            </div>
-
-
-                            <div class="flagsDiv me-4 text-center">
-                                <img src="assets/images/warning_shield.png" class="topicDetailsImg" alt="">
-                                <span class="small lightGreyColor">Flags: 0</span>
-
-
-                            </div>
-
+                                </div>
                         </div>
 
-                        
-                    </div>
+                        <div class=" col-md-6 col-12 ">
+                            
+                            <div class="d-flex float-md-end mt-md-1 mt-3 topicDetails">
+
+                                <div class="likesDiv me-4 text-center">
+                                    <img src="assets/images/heart_like.png" class="topicDetailsImg" alt="">
+                                    <span class="small lightGreyColor">Likes: 2</span>
+
+                                </div>
+                                <div class="commentsDiv me-4 text-center">
+                                    <img src="assets/images/messaging.png" class="topicDetailsImg" alt="">
+                                    <span class="small lightGreyColor">Comments: 4</span>
+
+                                </div>
+                                <div class="viewsDiv me-4 text-center">
+                                    <img src="assets/images/reading.png" class="topicDetailsImg" alt="">
+                                    <span class="small lightGreyColor">Views: 20</span>
+
+
+                                </div>
+
+
+                                <div class="flagsDiv me-4 text-center">
+                                    <img src="assets/images/warning_shield.png" class="topicDetailsImg" alt="">
+                                    <span class="small lightGreyColor">Flags: 0</span>
+
+
+                                </div>
+
+                            </div>
+
+                            
+                        </div>
 
                   
 
